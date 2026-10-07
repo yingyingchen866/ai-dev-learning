@@ -40,6 +40,29 @@ for module_name, purpose, _ in REQUIRED:
         print(f"[--]  {module_name:<12} {'未安装':<12} {purpose}")
         missing.append(module_name)
 
+# ---------------------------------------------------------------
+# 额外检查：不只问"库装没装"，还问"关键功能能不能用"
+#
+# 为什么要多这一步？因为"库能导入"不等于"你要用的那个类存在"。
+# 真实项目里最常见的坑就是版本更新后某个函数改了名字。
+# ---------------------------------------------------------------
+PROBES = [
+    ("from openai import OpenAI", "调用大模型 API 的入口类"),
+    ("from dotenv import load_dotenv", "读取 .env 中保存的密钥"),
+    ("from pandas import DataFrame", "表格数据结构"),
+    ("import matplotlib.pyplot as plt", "画图模块"),
+    ("import streamlit", "网页应用框架"),
+]
+
+print()
+print("--- 关键功能探测 ---")
+for statement, purpose in PROBES:
+    try:
+        exec(statement, {})
+        print(f"[OK]  {statement:<36} {purpose}")
+    except Exception as exc:
+        print(f"[--]  {statement:<36} 失败: {exc}")
+
 print("-" * 62)
 print(f"已就绪 {ok} / {len(REQUIRED)}")
 

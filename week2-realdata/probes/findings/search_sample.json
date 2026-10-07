@@ -1,0 +1,122 @@
+{
+  "data": {
+    "types": [
+      {
+        "name": "月度数据",
+        "code": "1",
+        "dtType": "MM"
+      },
+      {
+        "name": "季度数据",
+        "code": "2",
+        "dtType": "SS"
+      },
+      {
+        "name": "年度数据",
+        "code": "3",
+        "dtType": "YY"
+      }
+    ],
+    "data": [
+      {
+        "explain": null,
+        "indic_id": "a04ae26f929b42fe8abd649f8aea9d63",
+        "ek": "4e2c6e3533844ad9b7ad8056e48a9247",
+        "type_text": "年度数据",
+        "show_name": "互联网普及率 (%) ",
+        "i": "4e2c6e3533844ad9b7ad8056e48a9247",
+        "type_value": "3",
+        "da_name": "全国",
+        "dt": "2025",
+        "dt_name": "2025年",
+        "treeinfo_globalid": "69c574ab128a44e595cc0b24502b771b.884c062607104a91967b22742537f44f.79c5a96c74a14d7ebd3b17d21639a196.0255ec76c57545388fbaf50065f00f12",
+        "i_name": "互联网普及率",
+        "dt_type": "YY",
+        "da": "000000000000",
+        "value": "80.1",
+        "ek_name": "互联网普及率",
+        "cid": "0255ec76c57545388fbaf50065f00f12"
+      },
+      {
+        "explain": null,
+        "indic_id": "a04ae26f929b42fe8abd649f8aea9d63",
+        "ek": "4e2c6e3533844ad9b7ad8056e48a9247",
+        "type_text": "年度数据",
+        "show_name": "互联网普及率 (%) ",
+        "i": "4e2c6e3533844ad9b7ad8056e48a9247",
+        "type_value": "3",
+        "da_name": "全国",
+        "dt": "2024",
+        "dt_name": "2024年",
+        "treeinfo_globalid": "69c574ab128a44e595cc0b24502b771b.884c062607104a91967b22742537f44f.79c5a96c74a14d7ebd3b17d21639a196.0255ec76c57545388fbaf50065f00f12",
+        "i_name": null,
+        "dt_type": "YY",
+        "da": "000000000000",
+        "value": "78.6",
+        "ek_name": "互联网普及率",
+        "cid": "0255ec76c57545388fbaf50065f00f12"
+      },
+      {
+        "explain": "互联网上网人数指过去半年内使用过互联网的6周岁及以上中国居民人数。",
+        "indic_id": "012d68dfb2db49978cea288231d9335f",
+        "ek": "37b7048ec1884abc957b7a0724371ff4",
+        "type_text": "年度数据",
+        "show_name": "互联网上网人数 (万人) ",
+        "i": "37b7048ec1884abc957b7a0724371ff4",
+        "type_value": "3",
+        "da_name": "全国",
+        "dt": "2025",
+        "dt_name": "2025年",
+        "treeinfo_globalid": "69c574ab128a44e595cc0b24502b771b.884c062607104a91967b22742537f44f.79c5a96c74a14d7ebd3b17d21639a196.52b81ec946b74166bfb09b2a70105f78",
+        "i_name": "互联网上网人数",
+        "dt_type": "YY",
+        "da": "000000000000",
+        "value": "112549",
+        "ek_name": "互联网上网人数",
+        "cid": "52b81ec946b74166bfb09b2a70105f78"
+      },
+      {
+        "explain": "互联网上网人数指过去半年内使用过互联网的6周岁及以上中国居民人数。",
+        "indic_id": "012d68dfb2db49978cea288231d9335f",
+        "ek": "37b7048ec1884abc957b7a0724371ff4",
+        "type_text": "年度数据",
+        "show_name": "互联网上网人数 (万人) ",
+        "i": "37b7048ec1884abc957b7a0724371ff4",
+        "type_value": "3",
+        "da_name": "全国",
+        "dt": "2024",
+        "dt_name": "2024年",
+        "treeinfo_globalid": "69c574ab128a44e595cc0b24502b771b.884c062607104a91967b22742537f44f.79c5a96c74a14d7ebd3b17d21639a196.52b81ec946b74166bfb09b2a70105f78",
+        "i_name": null,
+        "dt_type": "YY",
+        "da": "000000000000",
+        "value": "110833",
+        "ek_name": "互联网上网人数",
+        "cid": "52b81ec946b74166bfb09b2a70105f78"
+      },
+      {
+        "explain": null,
+        "indic_id": "064f0219958246cab92b17c9778b944d",
+        "ek": "dc3182d3411649ee93ed243b80f9e428",
+        "type_text": "年度数据",
+        "show_name": "移动互联网用户 (万户) ",
+        "i": "dc3182d3411649ee93ed243b80f9e428",
+        "type_value": "3",
+        "da_name": "全国",
+        "dt": "2024",
+        "dt_name": "2024年",
+        "treeinfo_globalid": "69c574ab128a44e595cc0b24502b771b.884c062607104a91967b22742537f44f.79c5a96c74a14d7ebd3b17d21639a196.52b81ec946b74166bfb09b2a70105f78",
+        "i_name": "移动互联网用户",
+        "dt_type": "YY",
+        "da": "000000000000",
+        "value": "157014.90",
+        "ek_name": "移动互联网用户",
+        "cid": "52b81ec946b74166bfb09b2a70105f78"
+      }
+    ],
+    "count": 281
+  },
+  "success": true,
+  "state": 20000,
+  "message": "成功"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "交通运输、邮电通信业就业人员数",
+    "cid": "d7b68e02f9984ae48171c8bcbc20350f",
+    "sdate": null,
+    "edate": null
+  },
+  {
+    "name": "邮电业务量",
+    "cid": "69638fc2d89548298e0dff84f7eed3ad",
+    "sdate": "1978",
+    "edate": null
+  },
+  {
+    "name": "电信主要通信能力",
+    "cid": "9c6547e43eac440cbca087f403e804ca",
+    "sdate": null,
+    "edate": null
+  },
+  {
+    "name": "电信通信服务水平",
+    "cid": "503ff0a0d727437086f6d40e41049e76",
+    "sdate": null,
+    "edate": null
+  },
+  {
+    "name": "互联网主要指标发展情况",
+    "cid": "53f522fb4b1a40ce90977a0b1cd94da1",
+    "sdate": null,
+    "edate": null
+  },
+  {
+    "name": "企业信息化及电子商务情况",
+    "cid": "c65e7e59f4434a8cb35fbf9f7c857e60",
+    "sdate": null,
+    "edate": null
+  },
+  {
+    "name": "软件和信息技术服务业主要经济指标",
+    "cid": "f78cb6a5c77747a6abc401b615245ef1",
+    "sdate": "1949",
+    "edate": null
+  }
+]

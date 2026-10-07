@@ -1,0 +1,32 @@
+# Python 项目通用忽略规则
+# 作用：告诉 Git「这些文件不要提交」。
+# 最关键的一条是 .env —— 里面放 API 密钥，绝不能上传到 GitHub。
+
+# --- 密钥与本地配置（最重要）---
+.env
+.env.*
+!.env.example
+*.key
+secrets.json
+
+# --- Python 运行产生的缓存 ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- 虚拟环境（体积大，别人可以自己重建）---
+.venv/
+venv/
+env/
+
+# --- Jupyter 检查点 ---
+.ipynb_checkpoints/
+
+# --- 编辑器与系统文件 ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- 脚本输出（图表、结果文件通常不必提交）---
+output/
